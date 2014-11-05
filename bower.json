@@ -12,7 +12,7 @@
 		"README.md"
 	],
 	"license": "AGPL-3.0",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"main": "js/dist/uint32.js",
 	"homepage": "http://aureooms.github.io/js-uint32/",
 	"description": "32-bit unsigned integer arithmetic code bricks for JavaScript"
