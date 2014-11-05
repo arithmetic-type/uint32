@@ -1,0 +1,17 @@
+{
+	"out": "js/dist/",
+	"code": {
+		"test": [
+			"test",
+			"js"
+		],
+		"main": [
+			"js",
+			"dist",
+			"uint32.js"
+		]
+	},
+	"src": "js/src/",
+	"ns": "uint32",
+	"debug": false
+}
