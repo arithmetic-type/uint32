@@ -18,7 +18,7 @@
 		"unsigned"
 	],
 	"main": "js/dist/uint32.js",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"homepage": "http://aureooms.github.io/js-uint32/",
 	"bugs": {
 		"url": "https://github.com/aureooms/js-uint32/issues"
