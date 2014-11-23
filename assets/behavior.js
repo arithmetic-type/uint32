@@ -22,6 +22,56 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
       "depth": 1,
       "outline": []
     }, {
+      "type": "folder",
+      "data": {
+        "path": "limits",
+        "title": "limits"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-uint32/js/src/limits/max.js",
+            "projectPath": "js/src/limits/max.js",
+            "targetPath": "limits/max",
+            "pageTitle": "limits/max",
+            "title": "max"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-uint32/js/src/limits/min.js",
+            "projectPath": "js/src/limits/min.js",
+            "targetPath": "limits/min",
+            "pageTitle": "limits/min",
+            "title": "min"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
+    }, {
       "type": "file",
       "data": {
         "language": {
@@ -33,11 +83,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "foldPrefix": "^",
           "name": "JavaScript"
         },
-        "sourcePath": "/home/aureooms/dev/js/js-uint32/js/src/dummy.js",
-        "projectPath": "js/src/dummy.js",
-        "targetPath": "dummy",
-        "pageTitle": "dummy",
-        "title": "dummy"
+        "sourcePath": "/home/aureooms/dev/js/js-uint32/js/src/sqrt.js",
+        "projectPath": "js/src/sqrt.js",
+        "targetPath": "sqrt",
+        "pageTitle": "sqrt",
+        "title": "sqrt"
       },
       "depth": 1,
       "outline": []
