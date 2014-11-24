@@ -21,4 +21,13 @@ var sqrt = function ( n ) {
 
 exports.sqrt = sqrt ;
 
+/* js/src/usqrt.js */
+
+
+var usqrt = function ( n ) {
+	return Math.ceil( Math.sqrt( n ) ) ;
+} ;
+
+exports.usqrt = usqrt ;
+
 })(typeof exports === 'undefined' ? this['uint32'] = {} : exports);
