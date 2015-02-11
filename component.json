@@ -1,6 +1,6 @@
 {
 	"description": "32-bit unsigned integer arithmetic code bricks for JavaScript",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"repo": "aureooms/js-uint32",
 	"scripts": [
 		"js/dist/uint32.js"
