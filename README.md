@@ -13,3 +13,4 @@
 [![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-uint32.svg?style=flat)](https://codeclimate.com/github/aureooms/js-uint32)
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-uint32.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-uint32)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-uint32.svg?style=flat)](https://github.com/aureooms/js-uint32/issues)
+[![Inline docs](http://inch-ci.org/github/aureooms/js-uint32.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-uint32)
