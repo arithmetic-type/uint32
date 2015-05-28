@@ -1,19 +1,21 @@
 {
-	"name": "aureooms-js-uint32",
-	"ignore": [
-		"js/index.js",
-		"js/src",
-		"test",
-		"pkg.json",
-		"package.json",
-		".groc.json",
-		".travis.yml",
-		".gitignore",
-		"README.md"
-	],
-	"license": "AGPL-3.0",
-	"version": "0.1.3",
-	"main": "js/dist/uint32.js",
-	"homepage": "http://aureooms.github.io/js-uint32/",
-	"description": "32-bit unsigned integer arithmetic code bricks for JavaScript"
+  "name": "aureooms-js-uint32",
+  "ignore": [
+    "js/index.js",
+    "js/src",
+    "test",
+    "pkg.json",
+    "package.json",
+    ".groc.json",
+    ".travis.yml",
+    ".gitignore",
+    "README.md",
+    "inch.json",
+    ".codeclimate.yml"
+  ],
+  "license": "AGPL-3.0",
+  "version": "0.1.3",
+  "main": "js/dist/uint32.js",
+  "homepage": "http://aureooms.github.io/js-uint32/",
+  "description": "32-bit unsigned integer arithmetic code bricks for JavaScript"
 }
