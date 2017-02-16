@@ -1,7 +1,7 @@
 
 var run , random ;
 
-random = require( "aureooms-js-random" ) ;
+random = require( "@aureooms/js-random" ) ;
 
 run = function ( r ) {
 
