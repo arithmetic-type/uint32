@@ -1,0 +1,59 @@
+{
+  "name": "@aureooms/js-uint32",
+  "description": "32-bit unsigned integer arithmetic code bricks for JavaScript",
+  "version": "0.1.4",
+  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "ava": {
+    "require": [
+      "babel-polyfill",
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/aureooms/js-uint32/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@aureooms/js-random": "^2.0.0",
+    "ava": "^0.19.1",
+    "babel-cli": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "codeclimate-test-reporter": "^0.5.0",
+    "coveralls": "^2.13.1",
+    "esdoc": "^0.5.2",
+    "nyc": "^11.0.2"
+  },
+  "homepage": "http://aureooms.github.io/js-uint32/",
+  "keywords": [
+    "32",
+    "arithmetic",
+    "bricks",
+    "integer",
+    "javascript",
+    "js",
+    "unsigned"
+  ],
+  "license": "AGPL-3.0",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "https://github.com/aureooms/js-uint32.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "prepublish": "npm run build",
+    "test": "ava ./test/src --concurrency 8"
+  }
+}
