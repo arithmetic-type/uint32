@@ -1,7 +1,7 @@
 {
-  "coverage": "37.5%",
-  "expectCount": 8,
-  "actualCount": 3,
+  "coverage": "40%",
+  "expectCount": 10,
+  "actualCount": 4,
   "files": {
     "src/add32.js": {
       "expectCount": 1,
@@ -17,6 +17,13 @@
         1
       ]
     },
+    "src/get32.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        2
+      ]
+    },
     "src/lil32.js": {
       "expectCount": 1,
       "actualCount": 0,
@@ -29,7 +36,12 @@
       "actualCount": 2,
       "undocumentLines": []
     },
-    "src/rot32.js": {
+    "src/rotl32.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/rotr32.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
@@ -38,14 +50,14 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        3
+        1
       ]
     },
     "src/usqrt32.js": {
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        3
+        1
       ]
     }
   }

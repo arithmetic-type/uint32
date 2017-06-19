@@ -36,8 +36,10 @@
     
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-add32">add32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-big32">big32</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-get32">get32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lil32">lil32</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rot32">rot32</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotl32">rotl32</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotr32">rotr32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sqrt32">sqrt32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-usqrt32">usqrt32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-max">max</a></span></span></li>
@@ -118,6 +120,33 @@
         <p>
           
           
+          <span data-ice="name"><span><a href="function/index.html#static-function-get32">get32</a></span></span><span data-ice="signature">(w: <span>*</span>): <span>*</span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
           <span data-ice="name"><span><a href="function/index.html#static-function-lil32">lil32</a></span></span><span data-ice="signature">(a: <span>*</span>, o: <span>*</span>): <span>*</span></span>
         </p>
       </div>
@@ -145,13 +174,41 @@
         <p>
           
           
-          <span data-ice="name"><span><a href="function/index.html#static-function-rot32">rot32</a></span></span><span data-ice="signature">(word: <span>*</span>, shift: <span>*</span>): <span>*</span></span>
+          <span data-ice="name"><span><a href="function/index.html#static-function-rotl32">rotl32</a></span></span><span data-ice="signature">(word: <span>*</span>, shift: <span>*</span>): <span>*</span></span>
         </p>
       </div>
       <div>
         
         
         <div data-ice="description"><p>Left rotate for 32-bit unsigned integers</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="function/index.html#static-function-rotr32">rotr32</a></span></span><span data-ice="signature">(word: <span>*</span>, shift: <span>*</span>): <span>*</span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Right rotate for 32-bit unsigned integers</p>
 </div>
       </div>
     </td>
@@ -362,6 +419,77 @@
   
 </div>
 <div class="detail" data-ice="detail">
+  <h3 data-ice="anchor" id="static-function-get32">
+    <span class="access" data-ice="access">public</span>
+    
+    
+    
+    
+    
+    <span data-ice="name">get32</span><span data-ice="signature">(w: <span>*</span>): <span>*</span></span>
+    <span class="right-info">
+      
+      
+      <span data-ice="source"><span><a href="file/src/get32.js.html#lineNumber2">source</a></span></span>
+    </span>
+  </h3>
+
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {get32} from &apos;<span><a href="file/src/get32.js.html#lineNumber2">@aureooms/js-uint32/src/get32.js</a></span>&apos;</code></pre></div>
+  
+  
+  
+
+  
+
+  <div data-ice="properties"><div data-ice="properties">
+  <h4 data-ice="title">Params:</h4>
+  <table class="params">
+    <thead>
+    <tr><td>Name</td><td>Type</td><td>Attribute</td><td>Description</td></tr>
+    </thead>
+    <tbody>
+    
+    <tr data-ice="property" data-depth="0">
+      <td data-ice="name" data-depth="0">w</td>
+      <td data-ice="type"><span>*</span></td>
+      <td data-ice="appendix"></td>
+      <td data-ice="description"></td>
+    </tr>
+</tbody>
+  </table>
+</div>
+</div>
+
+  <div class="return-params" data-ice="returnParams">
+    <h4>Return:</h4>
+    <table>
+      <tbody>
+        <tr>
+          <td class="return-type" data-ice="returnType"><span>*</span></td>
+          
+        </tr>
+      </tbody>
+    </table>
+    <div data-ice="returnProperties">
+</div>
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+</div>
+<div class="detail" data-ice="detail">
   <h3 data-ice="anchor" id="static-function-lil32">
     <span class="access" data-ice="access">public</span>
     
@@ -439,28 +567,106 @@
   
 </div>
 <div class="detail" data-ice="detail">
-  <h3 data-ice="anchor" id="static-function-rot32">
+  <h3 data-ice="anchor" id="static-function-rotl32">
     <span class="access" data-ice="access">public</span>
     
     
     
     
     
-    <span data-ice="name">rot32</span><span data-ice="signature">(word: <span>*</span>, shift: <span>*</span>): <span>*</span></span>
+    <span data-ice="name">rotl32</span><span data-ice="signature">(word: <span>*</span>, shift: <span>*</span>): <span>*</span></span>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/rot32.js.html#lineNumber7">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/rotl32.js.html#lineNumber7">source</a></span></span>
     </span>
   </h3>
 
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {rot32} from &apos;<span><a href="file/src/rot32.js.html#lineNumber7">@aureooms/js-uint32/src/rot32.js</a></span>&apos;</code></pre></div>
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {rotl32} from &apos;<span><a href="file/src/rotl32.js.html#lineNumber7">@aureooms/js-uint32/src/rotl32.js</a></span>&apos;</code></pre></div>
   
   
   <div data-ice="description"><p>Left rotate for 32-bit unsigned integers</p>
 <ul>
 <li>used in md5 and sha1</li>
 </ul>
+</div>
+
+  
+
+  <div data-ice="properties"><div data-ice="properties">
+  <h4 data-ice="title">Params:</h4>
+  <table class="params">
+    <thead>
+    <tr><td>Name</td><td>Type</td><td>Attribute</td><td>Description</td></tr>
+    </thead>
+    <tbody>
+    
+    <tr data-ice="property" data-depth="0">
+      <td data-ice="name" data-depth="0">word</td>
+      <td data-ice="type"><span>*</span></td>
+      <td data-ice="appendix"></td>
+      <td data-ice="description"></td>
+    </tr>
+<tr data-ice="property" data-depth="0">
+      <td data-ice="name" data-depth="0">shift</td>
+      <td data-ice="type"><span>*</span></td>
+      <td data-ice="appendix"></td>
+      <td data-ice="description"></td>
+    </tr>
+</tbody>
+  </table>
+</div>
+</div>
+
+  <div class="return-params" data-ice="returnParams">
+    <h4>Return:</h4>
+    <table>
+      <tbody>
+        <tr>
+          <td class="return-type" data-ice="returnType"><span>*</span></td>
+          
+        </tr>
+      </tbody>
+    </table>
+    <div data-ice="returnProperties">
+</div>
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+</div>
+<div class="detail" data-ice="detail">
+  <h3 data-ice="anchor" id="static-function-rotr32">
+    <span class="access" data-ice="access">public</span>
+    
+    
+    
+    
+    
+    <span data-ice="name">rotr32</span><span data-ice="signature">(word: <span>*</span>, shift: <span>*</span>): <span>*</span></span>
+    <span class="right-info">
+      
+      
+      <span data-ice="source"><span><a href="file/src/rotr32.js.html#lineNumber5">source</a></span></span>
+    </span>
+  </h3>
+
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {rotr32} from &apos;<span><a href="file/src/rotr32.js.html#lineNumber5">@aureooms/js-uint32/src/rotr32.js</a></span>&apos;</code></pre></div>
+  
+  
+  <div data-ice="description"><p>Right rotate for 32-bit unsigned integers</p>
 </div>
 
   
@@ -531,11 +737,11 @@
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/sqrt32.js.html#lineNumber3">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/sqrt32.js.html#lineNumber1">source</a></span></span>
     </span>
   </h3>
 
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {sqrt32} from &apos;<span><a href="file/src/sqrt32.js.html#lineNumber3">@aureooms/js-uint32/src/sqrt32.js</a></span>&apos;</code></pre></div>
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {sqrt32} from &apos;<span><a href="file/src/sqrt32.js.html#lineNumber1">@aureooms/js-uint32/src/sqrt32.js</a></span>&apos;</code></pre></div>
   
   
   
@@ -602,11 +808,11 @@
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/usqrt32.js.html#lineNumber3">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/usqrt32.js.html#lineNumber1">source</a></span></span>
     </span>
   </h3>
 
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {usqrt32} from &apos;<span><a href="file/src/usqrt32.js.html#lineNumber3">@aureooms/js-uint32/src/usqrt32.js</a></span>&apos;</code></pre></div>
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {usqrt32} from &apos;<span><a href="file/src/usqrt32.js.html#lineNumber1">@aureooms/js-uint32/src/usqrt32.js</a></span>&apos;</code></pre></div>
   
   
   

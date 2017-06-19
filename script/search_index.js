@@ -12,6 +12,12 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "@aureooms/js-uint32/src/get32.js~get32",
+    "function/index.html#static-function-get32",
+    "<span>get32</span> <span class=\"search-result-import-path\">@aureooms/js-uint32/src/get32.js</span>",
+    "function"
+  ],
+  [
     "@aureooms/js-uint32/src/lil32.js~lil32",
     "function/index.html#static-function-lil32",
     "<span>lil32</span> <span class=\"search-result-import-path\">@aureooms/js-uint32/src/lil32.js</span>",
@@ -30,9 +36,15 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "@aureooms/js-uint32/src/rot32.js~rot32",
-    "function/index.html#static-function-rot32",
-    "<span>rot32</span> <span class=\"search-result-import-path\">@aureooms/js-uint32/src/rot32.js</span>",
+    "@aureooms/js-uint32/src/rotl32.js~rotl32",
+    "function/index.html#static-function-rotl32",
+    "<span>rotl32</span> <span class=\"search-result-import-path\">@aureooms/js-uint32/src/rotl32.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-uint32/src/rotr32.js~rotr32",
+    "function/index.html#static-function-rotr32",
+    "<span>rotr32</span> <span class=\"search-result-import-path\">@aureooms/js-uint32/src/rotr32.js</span>",
     "function"
   ],
   [
@@ -390,6 +402,12 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/get32.js",
+    "file/src/get32.js.html",
+    "src/get32.js",
+    "file"
+  ],
+  [
     "src/index.js",
     "file/src/index.js.html",
     "src/index.js",
@@ -408,9 +426,15 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/rot32.js",
-    "file/src/rot32.js.html",
-    "src/rot32.js",
+    "src/rotl32.js",
+    "file/src/rotl32.js.html",
+    "src/rotl32.js",
+    "file"
+  ],
+  [
+    "src/rotr32.js",
+    "file/src/rotr32.js.html",
+    "src/rotr32.js",
     "file"
   ],
   [

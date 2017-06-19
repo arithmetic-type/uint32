@@ -1,7 +1,7 @@
 {
   "name": "@aureooms/js-uint32",
   "description": "32-bit unsigned integer arithmetic code bricks for JavaScript",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
   "ava": {
     "require": [

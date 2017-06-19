@@ -36,8 +36,10 @@
     
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-add32">add32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-big32">big32</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-get32">get32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lil32">lil32</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rot32">rot32</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotl32">rotl32</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotr32">rotr32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sqrt32">sqrt32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-usqrt32">usqrt32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-max">max</a></span></span></li>
@@ -46,7 +48,7 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">3/8</span></h1>
+<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">4/10</span></h1>
 
 <table class="files-summary" data-ice="files" data-use-coverage="true">
   <thead>
@@ -65,9 +67,9 @@
       <td data-ice="filePath"><span><a href="file/src/add32.js.html#errorLines=1">src/add32.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-add32">add32</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
-      <td style="display: none;" data-ice="size">59 byte</td>
+      <td style="display: none;" data-ice="size">50 byte</td>
       <td style="display: none;" data-ice="lines">1</td>
-      <td style="display: none;" data-ice="updated">2017-06-04 16:46:44 (UTC)</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
     </tr>
 <tr data-ice="file">
       <td data-ice="filePath"><span><a href="file/src/big32.js.html#errorLines=1">src/big32.js</a></span></td>
@@ -75,15 +77,23 @@
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
       <td style="display: none;" data-ice="size">107 byte</td>
       <td style="display: none;" data-ice="lines">3</td>
-      <td style="display: none;" data-ice="updated">2017-06-04 16:46:44 (UTC)</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/get32.js.html#errorLines=2">src/get32.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-get32">get32</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">49 byte</td>
+      <td style="display: none;" data-ice="lines">4</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
     </tr>
 <tr data-ice="file">
       <td data-ice="filePath"><span><a href="file/src/index.js.html">src/index.js</a></span></td>
       <td data-ice="identifier" class="identifiers">-</td>
       <td class="coverage"><span data-ice="coverage">-</span></td>
-      <td style="display: none;" data-ice="size">186 byte</td>
-      <td style="display: none;" data-ice="lines">7</td>
-      <td style="display: none;" data-ice="updated">2017-06-04 16:46:44 (UTC)</td>
+      <td style="display: none;" data-ice="size">240 byte</td>
+      <td style="display: none;" data-ice="lines">9</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
     </tr>
 <tr data-ice="file">
       <td data-ice="filePath"><span><a href="file/src/lil32.js.html#errorLines=1">src/lil32.js</a></span></td>
@@ -91,40 +101,48 @@
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
       <td style="display: none;" data-ice="size">107 byte</td>
       <td style="display: none;" data-ice="lines">3</td>
-      <td style="display: none;" data-ice="updated">2017-06-04 16:46:44 (UTC)</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
     </tr>
 <tr data-ice="file">
       <td data-ice="filePath"><span><a href="file/src/limits.js.html">src/limits.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-max">max</a></span>
 <span><a href="variable/index.html#static-variable-min">min</a></span></td>
       <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
-      <td style="display: none;" data-ice="size">103 byte</td>
-      <td style="display: none;" data-ice="lines">6</td>
-      <td style="display: none;" data-ice="updated">2017-06-04 16:46:44 (UTC)</td>
+      <td style="display: none;" data-ice="size">139 byte</td>
+      <td style="display: none;" data-ice="lines">7</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
     </tr>
 <tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/rot32.js.html">src/rot32.js</a></span></td>
-      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-rot32">rot32</a></span></td>
+      <td data-ice="filePath"><span><a href="file/src/rotl32.js.html">src/rotl32.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-rotl32">rotl32</a></span></td>
       <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
-      <td style="display: none;" data-ice="size">174 byte</td>
+      <td style="display: none;" data-ice="size">175 byte</td>
       <td style="display: none;" data-ice="lines">9</td>
-      <td style="display: none;" data-ice="updated">2017-06-04 16:46:44 (UTC)</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
     </tr>
 <tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/sqrt32.js.html#errorLines=3">src/sqrt32.js</a></span></td>
+      <td data-ice="filePath"><span><a href="file/src/rotr32.js.html">src/rotr32.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-rotr32">rotr32</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">146 byte</td>
+      <td style="display: none;" data-ice="lines">7</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/sqrt32.js.html#errorLines=1">src/sqrt32.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-sqrt32">sqrt32</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
-      <td style="display: none;" data-ice="size">65 byte</td>
-      <td style="display: none;" data-ice="lines">6</td>
-      <td style="display: none;" data-ice="updated">2017-06-04 16:46:44 (UTC)</td>
+      <td style="display: none;" data-ice="size">62 byte</td>
+      <td style="display: none;" data-ice="lines">3</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
     </tr>
 <tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/usqrt32.js.html#errorLines=3">src/usqrt32.js</a></span></td>
+      <td data-ice="filePath"><span><a href="file/src/usqrt32.js.html#errorLines=1">src/usqrt32.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-usqrt32">usqrt32</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
       <td style="display: none;" data-ice="size">75 byte</td>
-      <td style="display: none;" data-ice="lines">6</td>
-      <td style="display: none;" data-ice="updated">2017-06-04 16:46:44 (UTC)</td>
+      <td style="display: none;" data-ice="lines">3</td>
+      <td style="display: none;" data-ice="updated">2017-06-02 16:19:39 (UTC)</td>
     </tr>
 </tbody>
 </table>

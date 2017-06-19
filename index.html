@@ -36,8 +36,10 @@
     
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-add32">add32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-big32">big32</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-get32">get32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lil32">lil32</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rot32">rot32</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotl32">rotl32</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotr32">rotr32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sqrt32">sqrt32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-usqrt32">usqrt32</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-max">max</a></span></span></li>
@@ -47,10 +49,11 @@
 </nav>
 
 <div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-aureooms-js-uint32-https-aureooms-github-io-js-uint32-"><a href="https://aureooms.github.io/js-uint32">@aureooms/js-uint32</a></h1>
-<p>32-bit unsigned integer arithmetic and logic operators for JavaScript.</p>
+<p>32-bit unsigned integer arithmetic and logic operators for JavaScript using
+32-bit signed integers as the underlying data type.</p>
 <p>Used in <a href="https://github.com/aureooms/js-hash">@aureooms/js-hash</a>.
 For a 64-bit version, see <a href="https://github.com/aureooms/js-uint64">@aureooms/js-uint64</a>.</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">rot32(1, 1); 2</code>
+<pre><code class="lang-js"><code class="source-code prettyprint">rot32(1, 1); // 2</code>
 </code></pre>
 <p><a href="https://raw.githubusercontent.com/aureooms/js-uint32/master/LICENSE"><img src="https://img.shields.io/github/license/aureooms/js-uint32.svg?style=flat" alt="License"></a>
 <a href="https://www.npmjs.org/package/@aureooms/js-uint32"><img src="https://img.shields.io/npm/v/@aureooms/js-uint32.svg?style=flat" alt="NPM version"></a>
