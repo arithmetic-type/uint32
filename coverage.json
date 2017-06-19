@@ -1,28 +1,22 @@
 {
-  "coverage": "40%",
+  "coverage": "70%",
   "expectCount": 10,
-  "actualCount": 4,
+  "actualCount": 7,
   "files": {
     "src/add32.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        1
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/big32.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        1
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/get32.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/lil32.js": {
       "expectCount": 1,

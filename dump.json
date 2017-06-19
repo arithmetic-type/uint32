@@ -3,7 +3,7 @@
     "__docId__": 0,
     "kind": "file",
     "name": "src/add32.js",
-    "content": "export const add32 = ( a , b ) => ( a + b ) | 0 ;\n",
+    "content": "/**\n * Adds to 32-bit signed integers.\n */\nexport const add32 = ( a , b ) => ( a + b ) | 0 ;\n",
     "static": true,
     "longname": "src/add32.js",
     "access": null,
@@ -23,15 +23,8 @@
     "export": true,
     "importPath": "@aureooms/js-uint32/src/add32.js",
     "importStyle": "{add32}",
-    "description": null,
-    "lineNumber": 1,
-    "undocument": true,
-    "unknown": [
-      {
-        "tagName": "@_undocument",
-        "tagValue": ""
-      }
-    ],
+    "description": "Adds to 32-bit signed integers.",
+    "lineNumber": 4,
     "params": [
       {
         "name": "a",
@@ -51,7 +44,7 @@
     "__docId__": 2,
     "kind": "file",
     "name": "src/big32.js",
-    "content": "export function big32 (a, o) {\n\treturn (a[o + 0] << 24) | (a[o + 1] << 16) | (a[o + 2] << 8) | a[o + 3];\n}\n",
+    "content": "/**\n * Construct a 32-bit signed integer from 4 bytes.\n */\nexport function big32 (a, o) {\n\treturn (a[o + 0] << 24) | (a[o + 1] << 16) | (a[o + 2] << 8) | a[o + 3];\n}\n",
     "static": true,
     "longname": "src/big32.js",
     "access": null,
@@ -71,15 +64,8 @@
     "export": true,
     "importPath": "@aureooms/js-uint32/src/big32.js",
     "importStyle": "{big32}",
-    "description": null,
-    "lineNumber": 1,
-    "undocument": true,
-    "unknown": [
-      {
-        "tagName": "@_undocument",
-        "tagValue": ""
-      }
-    ],
+    "description": "Construct a 32-bit signed integer from 4 bytes.",
+    "lineNumber": 4,
     "params": [
       {
         "name": "a",
@@ -104,7 +90,7 @@
     "__docId__": 4,
     "kind": "file",
     "name": "src/get32.js",
-    "content": "\nexport function get32 ( w ) {\n\treturn w | 0 ;\n}\n",
+    "content": "/**\n * Creates a 32-bit signed integer from anything.\n *\n * @example\n * get32(0xFFFFFFFF); // -1\n *\n */\nexport function get32 ( w ) {\n\treturn w | 0 ;\n}\n",
     "static": true,
     "longname": "src/get32.js",
     "access": null,
@@ -124,15 +110,11 @@
     "export": true,
     "importPath": "@aureooms/js-uint32/src/get32.js",
     "importStyle": "{get32}",
-    "description": null,
-    "lineNumber": 2,
-    "undocument": true,
-    "unknown": [
-      {
-        "tagName": "@_undocument",
-        "tagValue": ""
-      }
+    "description": "Creates a 32-bit signed integer from anything.",
+    "examples": [
+      "get32(0xFFFFFFFF); // -1"
     ],
+    "lineNumber": 8,
     "params": [
       {
         "name": "w",

@@ -49,7 +49,13 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/get32.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * Creates a 32-bit signed integer from anything.
+ *
+ * @example
+ * get32(0xFFFFFFFF); // -1
+ *
+ */
 export function get32 ( w ) {
 	return w | 0 ;
 }
