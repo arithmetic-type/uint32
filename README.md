@@ -1,13 +1,14 @@
 [@aureooms/js-uint32](https://aureooms.github.io/js-uint32)
 ==
 
-32-bit unsigned integer arithmetic and logic operators for JavaScript.
+32-bit unsigned integer arithmetic and logic operators for JavaScript using
+32-bit signed integers as the underlying data type.
 
 Used in [@aureooms/js-hash](https://github.com/aureooms/js-hash).
 For a 64-bit version, see [@aureooms/js-uint64](https://github.com/aureooms/js-uint64).
 
 ```js
-rot32(1, 1); 2
+rot32(1, 1); // 2
 ```
 
 [![License](https://img.shields.io/github/license/aureooms/js-uint32.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-uint32/master/LICENSE)

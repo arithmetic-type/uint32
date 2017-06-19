@@ -1,9 +1,11 @@
 import test from 'ava';
-import { usqrt32 , min , max } from '../../src';
+import { usqrt32 , min , max , get32 } from '../../src';
 
 import { randint } from "@aureooms/js-random" ;
 
-function macro ( t , r ) {
+function macro ( t , R ) {
+
+	const r = R >>> 0 ;
 
 	const s = usqrt32( r ) ;
 
@@ -16,7 +18,15 @@ macro.title = ( _ , r ) => `usqrt32(${r})` ;
 
 const n = 10000 ;
 
-for ( let i = 0 ; i < n ; ++i ) test( macro, randint( min + 1 , max + 1 ) ) ;
+for ( let i = 0 ; i < n ; ++i ) test( macro, randint( ( min >>> 0 ) + 1 , ( max >>> 0 ) + 1 ) ) ;
 
 test( macro, min + 1 ) ;
 test( macro, max ) ;
+
+test( 'usqrt32(0)' , t => {
+
+	const s = usqrt32(0) ;
+
+	t.is( s , 0 ) ;
+
+}) ;
