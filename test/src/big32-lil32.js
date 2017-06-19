@@ -1,10 +1,20 @@
 import test from 'ava';
 
-import { big32 , get32 } from '../../src' ;
+import { big32 , lil32 , get32 } from '../../src' ;
 
-function macro (t, a, o, expected) {
-	expected = get32(expected);
-	t.deepEqual(big32(a, o), expected);
+import { list , reversed } from '@aureooms/js-itertools' ;
+
+function macro (t, a, o, e) {
+
+	const expected = get32(e);
+
+	const b = list( reversed( a ) ) ;
+
+	const p = b.length - o - 4 ;
+
+	t.deepEqual(big32(a, o), expected, 'big32');
+	t.deepEqual(lil32(b, p), expected, 'lil32');
+
 }
 
 macro.title = (providedTitle, a, o, expected) => `${providedTitle} big32(${a}, ${o}) === ${expected}`.trim();
