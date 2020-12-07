@@ -1,4 +1,4 @@
-[@aureooms/js-uint32](https://aureooms.github.io/js-uint32)
+:honeybee: [@aureooms/js-uint32](https://aureooms.github.io/js-uint32)
 ==
 
 32-bit unsigned integer arithmetic and logic operators for JavaScript using
