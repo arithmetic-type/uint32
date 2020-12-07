@@ -11,7 +11,7 @@ For a 64-bit version, see [@aureooms/js-uint64](https://github.com/aureooms/js-u
 rotl32(1, 1); // 2
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-uint32.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-uint32/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-uint32.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-uint32/main/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-uint32.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-uint32)
 [![Build Status](https://img.shields.io/travis/aureooms/js-uint32.svg?style=flat)](https://travis-ci.org/aureooms/js-uint32)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-uint32.svg?style=flat)](https://coveralls.io/r/aureooms/js-uint32)
