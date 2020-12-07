@@ -11,13 +11,17 @@ For a 64-bit version, see [@aureooms/js-uint64](https://github.com/aureooms/js-u
 rotl32(1, 1); // 2
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-uint32.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-uint32/main/LICENSE)
-[![NPM version](https://img.shields.io/npm/v/@aureooms/js-uint32.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-uint32)
-[![Build Status](https://img.shields.io/travis/aureooms/js-uint32.svg?style=flat)](https://travis-ci.org/aureooms/js-uint32)
-[![Coverage Status](https://img.shields.io/coveralls/aureooms/js-uint32.svg?style=flat)](https://coveralls.io/r/aureooms/js-uint32)
-[![Dependencies Status](https://img.shields.io/david/aureooms/js-uint32.svg?style=flat)](https://david-dm.org/aureooms/js-uint32#info=dependencies)
-[![devDependencies Status](https://img.shields.io/david/dev/aureooms/js-uint32.svg?style=flat)](https://david-dm.org/aureooms/js-uint32#info=devDependencies)
-[![Code Climate](https://img.shields.io/codeclimate/github/aureooms/js-uint32.svg?style=flat)](https://codeclimate.com/github/aureooms/js-uint32)
-[![NPM downloads per month](https://img.shields.io/npm/dm/@aureooms/js-uint32.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-uint32)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-uint32.svg?style=flat)](https://github.com/aureooms/js-uint32/issues)
-[![Documentation](https://aureooms.github.io/js-uint32/badge.svg)](https://aureooms.github.io/js-uint32/source.html)
+[![License](https://img.shields.io/github/license/aureooms/js-uint32.svg)](https://raw.githubusercontent.com/aureooms/js-uint32/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@aureooms/js-uint32.svg)](https://www.npmjs.org/package/@aureooms/js-uint32)
+[![Build](https://img.shields.io/travis/aureooms/js-uint32/main.svg)](https://travis-ci.org/aureooms/js-uint32/branches)
+[![Dependencies](https://img.shields.io/david/aureooms/js-uint32.svg)](https://david-dm.org/aureooms/js-uint32)
+[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-uint32.svg)](https://david-dm.org/aureooms/js-uint32?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-uint32.svg)](https://github.com/aureooms/js-uint32/issues)
+[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-uint32.svg)](https://www.npmjs.org/package/@aureooms/js-uint32)
+
+[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-uint32.svg)](https://codeclimate.com/github/aureooms/js-uint32/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-uint32.svg)](https://codeclimate.com/github/aureooms/js-uint32/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-uint32/main.svg)](https://codecov.io/gh/aureooms/js-uint32)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-uint32.svg)](https://codeclimate.com/github/aureooms/js-uint32/trends/technical_debt)
+[![Documentation](https://aureooms.github.io/js-uint32//badge.svg)](https://aureooms.github.io/js-uint32//source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-uint32)](https://bundlephobia.com/result?p=@aureooms/js-uint32)
