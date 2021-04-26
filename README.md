@@ -1,4 +1,4 @@
-:honeybee: [@aureooms/js-uint32](https://aureooms.github.io/js-uint32)
+:honeybee: [@aureooms/js-uint32](https://make-github-pseudonymous-again.github.io/js-uint32)
 ==
 
 32-bit unsigned integer arithmetic and logic operators for JavaScript using
@@ -23,5 +23,5 @@ rotl32(1, 1); // 2
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-uint32.svg)](https://codeclimate.com/github/aureooms/js-uint32/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-uint32/main.svg)](https://codecov.io/gh/aureooms/js-uint32)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-uint32.svg)](https://codeclimate.com/github/aureooms/js-uint32/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-uint32//badge.svg)](https://aureooms.github.io/js-uint32//source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-uint32//badge.svg)](https://make-github-pseudonymous-again.github.io/js-uint32//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-uint32)](https://bundlephobia.com/result?p=@aureooms/js-uint32)
