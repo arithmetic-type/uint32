@@ -1,8 +1,8 @@
 {
-  "name": "@aureooms/js-uint32",
+  "name": "@arithmetic-type/uint32",
   "description": "32-bit unsigned integer arithmetic code bricks for JavaScript",
   "version": "1.0.1",
-  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "author": "make-github-pseudonymous-again",
   "ava": {
     "require": [
       "regenerator-runtime/runtime",
@@ -74,7 +74,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-uint32/issues"
+    "url": "https://github.com/arithmetic-type/uint32/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -101,7 +101,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "http://make-github-pseudonymous-again.github.io/js-uint32/",
+  "homepage": "http://arithmetic-type.github.io/uint32",
   "keywords": [
     "32",
     "arithmetic",
@@ -114,7 +114,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-uint32.git",
+    "url": "https://github.com/arithmetic-type/uint32.git",
     "type": "git"
   },
   "scripts": {

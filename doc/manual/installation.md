@@ -6,10 +6,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-uint32
+jspm install npm:@arithmetic-type/uint32
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-uint32 --save
+npm install @arithmetic-type/uint32 --save
 ```
