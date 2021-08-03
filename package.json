@@ -1,7 +1,7 @@
 {
   "name": "@arithmetic-type/uint32",
   "description": "32-bit unsigned integer arithmetic code bricks for JavaScript",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://arithmetic-type.github.io/uint32",
