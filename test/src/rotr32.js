@@ -1,36 +1,37 @@
 import test from 'ava';
 
-import { rotr32 , get32 } from '../../src/index.js' ;
+import {rotr32, get32} from '../../src/index.js';
 
-function macro (t, a, s, expected) {
+function macro(t, a, s, expected) {
 	a = get32(a);
 	expected = get32(expected);
 	t.deepEqual(rotr32(a, s), expected);
 }
 
-macro.title = (providedTitle, a, s, expected) => `${providedTitle} ${a} rotr ${s} === ${expected}`.trim();
+macro.title = (providedTitle, a, s, expected) =>
+	`${providedTitle} ${a} rotr ${s} === ${expected}`.trim();
 
-test(macro, 0x00000000,  0, 0x00000000);
-test(macro, 0x00000001,  1, 0x80000000);
-test(macro, 0x00000001,  0, 0x00000001);
-test(macro, 0x00000002,  0, 0x00000002);
+test(macro, 0x00_00_00_00, 0, 0x00_00_00_00);
+test(macro, 0x00_00_00_01, 1, 0x80_00_00_00);
+test(macro, 0x00_00_00_01, 0, 0x00_00_00_01);
+test(macro, 0x00_00_00_02, 0, 0x00_00_00_02);
 
-test(macro, 0xFFFFFFFF,  0, 0xFFFFFFFF);
-test(macro, 0xFFFFFFFF,  4, 0xFFFFFFFF);
-test(macro, 0xFFFFFFFF,  8, 0xFFFFFFFF);
-test(macro, 0xFFFFFFFF, 12, 0xFFFFFFFF);
-test(macro, 0xFFFFFFFF, 16, 0xFFFFFFFF);
-test(macro, 0xFFFFFFFF, 20, 0xFFFFFFFF);
-test(macro, 0xFFFFFFFF, 24, 0xFFFFFFFF);
-test(macro, 0xFFFFFFFF, 28, 0xFFFFFFFF);
-test(macro, 0xFFFFFFFF, 32, 0xFFFFFFFF);
+test(macro, 0xff_ff_ff_ff, 0, 0xff_ff_ff_ff);
+test(macro, 0xff_ff_ff_ff, 4, 0xff_ff_ff_ff);
+test(macro, 0xff_ff_ff_ff, 8, 0xff_ff_ff_ff);
+test(macro, 0xff_ff_ff_ff, 12, 0xff_ff_ff_ff);
+test(macro, 0xff_ff_ff_ff, 16, 0xff_ff_ff_ff);
+test(macro, 0xff_ff_ff_ff, 20, 0xff_ff_ff_ff);
+test(macro, 0xff_ff_ff_ff, 24, 0xff_ff_ff_ff);
+test(macro, 0xff_ff_ff_ff, 28, 0xff_ff_ff_ff);
+test(macro, 0xff_ff_ff_ff, 32, 0xff_ff_ff_ff);
 
-test(macro, 0x01234567,  0, 0x01234567);
-test(macro, 0x01234567,  4, 0x70123456);
-test(macro, 0x01234567,  8, 0x67012345);
-test(macro, 0x01234567, 12, 0x56701234);
-test(macro, 0x01234567, 16, 0x45670123);
-test(macro, 0x01234567, 20, 0x34567012);
-test(macro, 0x01234567, 24, 0x23456701);
-test(macro, 0x01234567, 28, 0x12345670);
-test(macro, 0x01234567, 32, 0x01234567);
+test(macro, 0x01_23_45_67, 0, 0x01_23_45_67);
+test(macro, 0x01_23_45_67, 4, 0x70_12_34_56);
+test(macro, 0x01_23_45_67, 8, 0x67_01_23_45);
+test(macro, 0x01_23_45_67, 12, 0x56_70_12_34);
+test(macro, 0x01_23_45_67, 16, 0x45_67_01_23);
+test(macro, 0x01_23_45_67, 20, 0x34_56_70_12);
+test(macro, 0x01_23_45_67, 24, 0x23_45_67_01);
+test(macro, 0x01_23_45_67, 28, 0x12_34_56_70);
+test(macro, 0x01_23_45_67, 32, 0x01_23_45_67);

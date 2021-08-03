@@ -1,9 +1,9 @@
-export * from './add32.js' ;
-export * from './big32.js' ;
-export * from './get32.js' ;
-export * from './lil32.js' ;
-export * from './limits.js' ;
-export * from './rotl32.js' ;
-export * from './rotr32.js' ;
-export * from './sqrt32.js' ;
-export * from './usqrt32.js' ;
+export * from './add32.js';
+export * from './big32.js';
+export * from './get32.js';
+export * from './lil32.js';
+export * from './limits.js';
+export * from './rotl32.js';
+export * from './rotr32.js';
+export * from './sqrt32.js';
+export * from './usqrt32.js';

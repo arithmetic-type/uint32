@@ -1,3 +1,3 @@
-export function usqrt32 ( n ) {
-	return Math.ceil( Math.sqrt( n ) ) | 0;
+export function usqrt32(n) {
+	return Math.ceil(Math.sqrt(n)) | 0;
 }

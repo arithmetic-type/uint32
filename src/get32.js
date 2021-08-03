@@ -5,6 +5,6 @@
  * get32(0xFFFFFFFF); // -1
  *
  */
-export function get32 ( w ) {
-	return w | 0 ;
+export function get32(w) {
+	return w | 0;
 }

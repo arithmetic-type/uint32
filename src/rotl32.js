@@ -4,6 +4,6 @@
  *  - used in md5 and sha1
  */
 
-export function rotl32 (word, shift) {
+export function rotl32(word, shift) {
 	return (word << shift) | (word >>> (32 - shift));
 }
