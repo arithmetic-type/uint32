@@ -1,7 +1,7 @@
 {
-  "coverage": "70%",
-  "expectCount": 10,
-  "actualCount": 7,
+  "coverage": "62.5%",
+  "expectCount": 8,
+  "actualCount": 5,
   "files": {
     "src/add32.js": {
       "expectCount": 1,
@@ -24,11 +24,6 @@
       "undocumentLines": [
         1
       ]
-    },
-    "src/limits.js": {
-      "expectCount": 2,
-      "actualCount": 2,
-      "undocumentLines": []
     },
     "src/rotl32.js": {
       "expectCount": 1,
