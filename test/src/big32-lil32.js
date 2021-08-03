@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import { big32 , lil32 , get32 } from '../../src' ;
+import { big32 , lil32 , get32 } from '../../src/index.js' ;
 
 import {list} from '@iterable-iterator/list';
 import {reversed} from '@iterable-iterator/reversed';

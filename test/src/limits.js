@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import { min , max , get32 } from '../../src' ;
+import { min , max , get32 } from '../../src/index.js' ;
 
 function macro (t, input, expected) {
 	const b = get32(expected);

@@ -1,5 +1,5 @@
 import test from 'ava';
-import { usqrt32 , min , max , get32 } from '../../src';
+import { usqrt32 , min , max , get32 } from '../../src/index.js';
 
 import { randint } from "@randomized/random" ;
 

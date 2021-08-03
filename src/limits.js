@@ -1,4 +1,4 @@
-import { get32 } from './get32' ;
+import { get32 } from './get32.js' ;
 
 /** 0 */
 export const min = get32(0x00000000) ;
