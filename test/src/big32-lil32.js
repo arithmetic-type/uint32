@@ -2,7 +2,8 @@ import test from 'ava';
 
 import { big32 , lil32 , get32 } from '../../src' ;
 
-import { list , reversed } from '@aureooms/js-itertools' ;
+import {list} from '@iterable-iterator/list';
+import {reversed} from '@iterable-iterator/reversed';
 
 function macro (t, a, o, e) {
 

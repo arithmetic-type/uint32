@@ -1,7 +1,7 @@
 import test from 'ava';
 import { sqrt32 , min , max } from '../../src';
 
-import { randint } from "@aureooms/js-random" ;
+import { randint } from "@randomized/random" ;
 
 function macro ( t , R ) {
 
