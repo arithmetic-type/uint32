@@ -115,7 +115,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/arithmetic-type/uint32.git",
+    "url": "https://github.com/arithmetic-type/uint32",
     "type": "git"
   },
   "scripts": {
