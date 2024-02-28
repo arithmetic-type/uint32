@@ -13,7 +13,7 @@ rotl32(1, 1); // 2
 
 [![License](https://img.shields.io/github/license/arithmetic-type/uint32.svg)](https://raw.githubusercontent.com/arithmetic-type/uint32/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@arithmetic-type/uint32.svg)](https://www.npmjs.org/package/@arithmetic-type/uint32)
-[![Tests](https://img.shields.io/github/workflow/status/arithmetic-type/uint32/ci:test?event=push&label=tests)](https://github.com/arithmetic-type/uint32/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/arithmetic-type/uint32/ci:cover?event=push&label=tests)](https://github.com/arithmetic-type/uint32/actions/workflows/ci:cover.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/arithmetic-type/uint32.svg)](https://github.com/arithmetic-type/uint32/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/arithmetic-type/uint32.svg)](https://github.com/arithmetic-type/uint32/issues)
 [![Downloads](https://img.shields.io/npm/dm/@arithmetic-type/uint32.svg)](https://www.npmjs.org/package/@arithmetic-type/uint32)
