@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {add32, get32} from '../../src/index.js';
+import {add32, get32} from '#module';
 
 function macro(t, A, B, EXPECTED) {
 	const a = get32(A);

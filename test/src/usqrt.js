@@ -1,6 +1,6 @@
 import test from 'ava';
 import {randint} from '@randomized/random';
-import {usqrt32, min, max} from '../../src/index.js';
+import {usqrt32, min, max} from '#module';
 
 function macro(t, R) {
 	const r = R >>> 0;

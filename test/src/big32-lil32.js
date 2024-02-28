@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {list} from '@iterable-iterator/list';
 import {reversed} from '@iterable-iterator/reversed';
-import {big32, lil32, get32} from '../../src/index.js';
+import {big32, lil32, get32} from '#module';
 
 function macro(t, a, o, e) {
 	const expected = get32(e);

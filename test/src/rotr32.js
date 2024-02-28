@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {rotr32, get32} from '../../src/index.js';
+import {rotr32, get32} from '#module';
 
 function macro(t, a, s, expected) {
 	a = get32(a);
