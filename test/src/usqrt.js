@@ -1,5 +1,7 @@
 import test from 'ava';
+
 import {randint} from '@randomized/random';
+
 import {usqrt32, min, max} from '#module';
 
 function macro(t, R) {
